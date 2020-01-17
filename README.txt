@@ -4,7 +4,7 @@ Yra du skirtingi būdai paleisti aplikaciją:
 
 1. Grafinė vartotojo sąsaja
 Šiam pasirinkimui Jums reikės įdiegti šiame archyvę esantį failą (Visma Warehouse App Installer.exe)
-Sekite instrukcijas arba jei bus neaiškumų - rašykite man.
+Sekite duodamas aplikacijos instrukcijas arba jei bus neaiškumų - rašykite man.
 
 2. Konsolė
 Jums reikės atidarinėti projektą per savo pasirinktą programavimo aplinką.
