@@ -1,4 +1,4 @@
-package BackEnd;
+package ConsoleOutput;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,6 +12,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import BackEnd.InputChecker;
+import BackEnd.Product;
+import BackEnd.ProductManipulation;
+import BackEnd.SortByProduct;
 
 public class ConsoleOutput {
 
