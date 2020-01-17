@@ -12,7 +12,7 @@ Prieš paleidžiant kodą, svarbu nurodyti failo vietą, tam, kad duomenys užsi
 Konsolėje, renkantis iš meniu pasirinkimo, rašykite sveikąjį skaičių be tarpų (yra patikra, bet dėl viso pikto).
 Vedant produktų kiekį, taip pat rašykite sveikąjį skaičių be tarpų (yra patikra bet dėl viso pikto).
 Vedant datą, datos formatas turi būti yyyy-mm-dd, pvz.: 2019-01-15 (yra patikra, bet dėl viso pikto).
-Toliau sekite duodamas instrukcijas.
+Sekite duodamas aplikacijos instrukcijas arba jei bus neaiškumų - rašykite man.
 
 
 Funkciniai reikalavimai:
