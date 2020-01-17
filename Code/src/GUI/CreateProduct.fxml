@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.CreateProduct">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#saveFile" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#aboutScene" text="About" />
+                  <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Product">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#mainScene" text="Upload/View" />
+                  <MenuItem mnemonicParsing="false" onAction="#editDeleteScene" text="Edit/Delete" />
+                  <MenuItem mnemonicParsing="false" text="Create" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Check">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#quantityScene" text="Quantity" />
+                  <MenuItem mnemonicParsing="false" onAction="#exDateScene" text="Ex. date" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="inputProduct" layoutX="258.0" layoutY="139.0" />
+      <TextField fx:id="inputCode" layoutX="258.0" layoutY="175.0" />
+      <TextField fx:id="inputQuantity" layoutX="258.0" layoutY="212.0" />
+      <DatePicker fx:id="datePicker" editable="false" layoutX="258.0" layoutY="248.0" prefHeight="25.0" prefWidth="150.0" />
+      <Text layoutX="196.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please fill the fields to create a product:" />
+      <Text layoutX="162.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert product:" />
+      <Text layoutX="176.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert code:" />
+      <Text layoutX="157.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert quantity:" />
+      <Text layoutX="141.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select expiry date:" />
+      <Button layoutX="285.0" layoutY="312.0" mnemonicParsing="false" onAction="#createProduct" prefHeight="25.0" prefWidth="96.0" text="Create" />
+      <Text fx:id="text" fill="#00ff37" layoutX="280.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Successfully created" visible="false" />
+   </children>
+</AnchorPane>
