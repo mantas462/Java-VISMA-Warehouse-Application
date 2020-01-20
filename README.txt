@@ -1,6 +1,6 @@
 Sveiki,
 
-Yra du skirtingi būdai paleisti aplikaciją:
+Yra dvi skirtingos aplikacijos:
 
 1. Grafinė vartotojo sąsaja
 Šiam pasirinkimui Jums reikės įdiegti šiame archyvę esantį failą (Visma Warehouse App Installer/Visma Warehouse App Installer.exe)
