@@ -67,17 +67,6 @@ public class ProductManipulation {
 		return false;
 	}
 
-	public ArrayList<Product> getProductsByQuantityLessThanGivenNumber(int neededQuantity) {
-		ArrayList<Product> neededProducts = new ArrayList();
-
-		for (Product product : products) {
-			if (product.getProductQuantity() < neededQuantity) {
-				neededProducts.add(product);
-			}
-		}
-
-		return neededProducts;
-	}
 
 	public ArrayList<Product> getProducts() {
 		return products;

@@ -30,9 +30,9 @@ public class ConsoleOutput {
 
 		int input = 0;
 
-		ProductManipulation todo = new ProductManipulation();
+		ProductManipulation manipulate = new ProductManipulation();
 		
-		todo.uploadProducts(file);
+		manipulate.uploadProducts(file);
 
 		while (input != 9) {
 			System.out.println(
@@ -42,13 +42,13 @@ public class ConsoleOutput {
 			String choice = scanner.nextLine();
 			switch (choice) {
 			case "1":
-				checkProductsQuantity(todo);
+				checkProductsQuantity(manipulate);
 				break;
 			case "2":
-				checkExDate(todo);
+				checkExDate(manipulate);
 				break;
 			case "3":
-				getAllProducts(todo);
+				getAllProducts(manipulate);
 				break;
 			case "9":
 				System.out.println("Bye!");
@@ -62,13 +62,13 @@ public class ConsoleOutput {
 		}
 	}
 
-	public static void getAllProducts(ProductManipulation todo) {
+	public static void getAllProducts(ProductManipulation manipulate) {
 		ArrayList<Product> products;
-		products = todo.getProducts();
+		products = manipulate.getProducts();
 		printArrayList(products);
 	}
 
-	private static void checkExDate(ProductManipulation todo) {
+	private static void checkExDate(ProductManipulation manipulate) {
 		boolean goodInput = false;
 
 		while (!goodInput) {
@@ -86,7 +86,7 @@ public class ConsoleOutput {
 				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 				dateInput = LocalDate.parse(input, formatter);
-				products = todo.getProductsByExpiryDate(dateInput);
+				products = manipulate.getProductsByExpiryDate(dateInput);
 				printArrayList(products);
 				goodInput = true;
 			}
@@ -94,7 +94,7 @@ public class ConsoleOutput {
 
 	}
 
-	private static void checkProductsQuantity(ProductManipulation todo) {
+	private static void checkProductsQuantity(ProductManipulation manipulate) {
 		boolean goodInput = false;
 
 		while (!goodInput) {
@@ -108,7 +108,7 @@ public class ConsoleOutput {
 
 			if (goodInput) {
 				ArrayList<Product> products;
-				products = todo.getProductsByQuantity(Integer.parseInt(input));
+				products = manipulate.getProductsByQuantity(Integer.parseInt(input));
 				printArrayList(products);
 
 				goodInput = true;
