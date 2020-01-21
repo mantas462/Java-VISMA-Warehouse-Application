@@ -1,12 +1,12 @@
 Sveiki,
 
-Yra dvi skirtingos aplikacijos:
+Yra du skirtingi aplikacijų paleidimo tipai:
 
-1. Grafinė vartotojo sąsaja
+1. Su grafinė vartotojo sąsaja
 Šiam pasirinkimui Jums reikės įdiegti šiame archyvę esantį failą (Visma Warehouse App Installer/Visma Warehouse App Installer.exe)
 Sekite duodamas aplikacijos instrukcijas arba jei bus neaiškumų - rašykite man.
 
-2. Konsolė
+2. Konsolėje
 Jums reikės atidarinėti projektą per savo pasirinktą programavimo aplinką.
 Prieš paleidžiant kodą, svarbu nurodyti failo vietą, tam, kad duomenys būtų užkrauti į dinaminę atmintį. 
 Konsolėje, renkantis iš meniu pasirinkimo, rašykite sveikąjį skaičių be tarpų (yra patikra, bet dėl viso pikto).
