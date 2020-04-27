@@ -1,5 +1,3 @@
-os:windows
 language: java
-rvm:
- - jdk8
- - jdk11
+jdk:
+  - oraclejdk8
