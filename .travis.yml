@@ -1,4 +1,4 @@
-dist: xenial
+os:windows
 language: java
 rvm:
  - openjdk8
