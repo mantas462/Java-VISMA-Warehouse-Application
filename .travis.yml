@@ -1,5 +1,5 @@
 os:windows
 language: java
 rvm:
- - openjdk8
- - openjdk11
+ - jdk8
+ - jdk11
