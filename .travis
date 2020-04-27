@@ -1,5 +1,0 @@
-dist: xenial
-language: java
-rvm:
- - openjdk8
- - openjdk11
